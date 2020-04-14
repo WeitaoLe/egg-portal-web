@@ -1,0 +1,144 @@
+/* 底部footer样式 */
+
+footer {
+  width: 100%;
+  height: auto;
+
+  .fl {
+    float: left;
+  }
+
+  .ft_top {
+    width: 100%;
+    height: auto;
+    background-color: #2c2f3c;
+    padding: 60px 0;
+  }
+
+  .ft_content {
+    position: relative;
+
+    li {
+      float: left;
+      padding-left: 60px;
+      width: 780px;
+
+      &:nth-child(2) {
+        border-left: 1px solid #616161;
+        width: 420px;
+      }
+    }
+  }
+
+  .dl_right {
+    padding-left: 84px;
+  }
+
+  .ft_content dl {
+    dt {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 25px;
+    }
+
+    dd {
+      color: #eee;
+      font-size: 14px;
+      margin-bottom: 10px;
+
+      a {
+        &:hover {
+          color: #0097e0;
+        }
+
+        color: #eee;
+        font-size: 14px;
+      }
+    }
+  }
+
+  .ana_contact dd {
+    position: relative;
+    padding-left: 25px;
+  }
+
+  .ft_content i {
+    position: absolute;
+    top: 2px;
+    left: 0;
+  }
+
+  .aboutmark {
+    width: 120px;
+    text-align: center;
+    margin-right: 57px;
+
+    img {
+      width: 120px;
+      height: 120px;
+      float: left;
+      border: 10px solid #fff;
+      margin-bottom: 14px;
+    }
+
+    a {
+      color: #fff;
+    }
+  }
+
+  .code {
+    position: absolute;
+    right: -20px;
+    top: 40px;
+    display: none;
+    z-index: 999;
+
+    a {
+      padding: 6px;
+      background-color: #fff;
+      margin-right: 15px;
+    }
+
+    img {
+      width: 126px;
+      height: 126px;
+      float: left;
+    }
+  }
+
+  /* 底部二 */
+
+  .ft_btm {
+    height: auto;
+    background-color: #252831;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .btm_link {
+    position: relative;
+    height: auto;
+    text-align: center;
+
+    a {
+      font-size: 12px;
+      color: #fff;
+    }
+
+    ul li a:hover {
+      color: rgb(120, 183, 245);
+    }
+  }
+
+  .copyright {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    padding-top: 10px;
+
+    a {
+      color: #fff;
+    }
+  }
+}
